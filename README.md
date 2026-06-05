@@ -2,7 +2,8 @@
 
 Pre-compiled R binary packages for HarmonyOS (aarch64-linux-ohos).
 
-R 4.6.0 recommended packages, built with `R CMD INSTALL --build` on-device.
+R 4.6.0 recommended packages, built with `R CMD INSTALL --build` on-device
+for the [R-HarmonyOS](https://github.com/sxgou/R-harmonyos) project.
 
 ## Usage
 
@@ -57,3 +58,7 @@ src/contrib/
 ## Build from source
 
 Run `bash build-recommended.sh` on a HarmonyOS device with R installed.
+
+---
+
+*Part of the [R-HarmonyOS](https://github.com/sxgou/R-harmonyos) project.*

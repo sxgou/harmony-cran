@@ -67,6 +67,15 @@ echo ""
 echo "=== Collecting binary packages ==="
 mv *.tar.gz "$OUTPUT_DIR/" 2>/dev/null || echo "  (No tarballs to move)"
 
+# Strip platform suffix from tarball names (R expects Package_Version.tar.gz)
+echo "=== Stripping platform suffix ==="
+for f in "$OUTPUT_DIR"/*_R_*.tar.gz; do
+  if [ -f "$f" ]; then
+    new=$(echo "$f" | sed 's/_R_aarch64-pc-linux-musl//')
+    mv -v "$f" "$new"
+  fi
+done
+
 # Generate PACKAGES metadata
 echo "=== Generating PACKAGES metadata ==="
 R -e "tools::write_PACKAGES('${OUTPUT_DIR}', type = 'source')" --no-echo

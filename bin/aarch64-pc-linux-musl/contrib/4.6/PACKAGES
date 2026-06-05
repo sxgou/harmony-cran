@@ -6,3 +6,11 @@ Suggests: XML
 License: BSD_3_clause + file LICENSE
 MD5sum: faff0d075ea184218d2706f6daf3d94e
 NeedsCompilation: yes
+
+Package: XML
+Version: 3.99-0.23
+Depends: R (>= 4.0.0), methods, utils
+Suggests: bitops, RCurl
+License: BSD_3_clause + file LICENSE
+MD5sum: 9c13d360170e2a64e037d31fdc34f254
+NeedsCompilation: yes

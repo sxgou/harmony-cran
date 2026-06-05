@@ -21,7 +21,7 @@ CRAN source compilation.
 
 ```r
 install.packages("Matrix",
-    repos = c(harmony_cran = "https://sxgou.github.io/harmony-cran",
+    repos = c(harmony_cran = "https://raw.githubusercontent.com/sxgou/harmony-cran/master",
               CRAN = "https://cloud.r-project.org"))
 ```
 

@@ -35,6 +35,21 @@ License: GPL
 MD5sum: 965043aaa6204e6a541b15471384ef4d
 NeedsCompilation: no
 
+Package: DESeq2
+Version: 1.52.0
+Depends: S4Vectors (>= 0.23.18), IRanges, GenomicRanges,
+        SummarizedExperiment (>= 1.1.6)
+Imports: BiocGenerics (>= 0.7.5), Biobase, BiocParallel, matrixStats,
+        methods, stats4, locfit, ggplot2 (>= 3.4.0), Rcpp (>= 0.11.0),
+        MatrixGenerics
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat, knitr, rmarkdown, vsn, pheatmap, RColorBrewer,
+        apeglm, ashr, tximport, tximeta, tximportData, readr, pbapply,
+        airway, glmGamPoi, BiocManager
+License: LGPL (>= 3)
+MD5sum: b5d742d6a343fa5b0656f461ee83cb01
+NeedsCompilation: yes
+
 Package: foreign
 Version: 0.8-91
 Priority: recommended

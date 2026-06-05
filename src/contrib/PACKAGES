@@ -304,7 +304,7 @@ Depends: R (>= 3.4)
 Imports: tools, utils, stats
 License: file LICENSE
 License_is_FOSS: yes
-MD5sum: 308b31c7a9730a3863d55d6007b593e6
+MD5sum: dac357647ddd2f2907442a7a1523badf
 NeedsCompilation: yes
 
 Package: SummarizedExperiment

@@ -17,11 +17,29 @@ The `harmony_install()` function (provided by the R-HarmonyOS project's
 `.Rprofile`) automatically checks this repository before falling back to
 CRAN source compilation.
 
+## Mirrors
+
+Two mirrors are available:
+
+| Mirror | URL |
+|--------|-----|
+| GitHub (primary) | `https://raw.githubusercontent.com/sxgou/harmony-cran/master` |
+| Gitee (China) | `https://gitee.com/sxgou/harmony-cran/raw/master` |
+
+The `harmony_install()` function automatically detects reachable mirrors
+and tries Gitee first when GitHub is blocked.
+
 ## Manual install
 
 ```r
+# GitHub (default)
 install.packages("Matrix",
     repos = c(harmony_cran = "https://raw.githubusercontent.com/sxgou/harmony-cran/master",
+              CRAN = "https://cloud.r-project.org"))
+
+# Gitee mirror (China)
+install.packages("Matrix",
+    repos = c(harmony_cran = "https://gitee.com/sxgou/harmony-cran/raw/master",
               CRAN = "https://cloud.r-project.org"))
 ```
 

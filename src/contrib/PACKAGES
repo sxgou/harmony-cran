@@ -1,3 +1,11 @@
+Package: askpass
+Version: 1.2.1
+Imports: sys (>= 2.1)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 41a1ddef9dde0f2c4b8b986127c38159
+NeedsCompilation: yes
+
 Package: Biobase
 Version: 2.72.0
 Depends: R (>= 2.10), BiocGenerics (>= 0.27.1), utils
@@ -286,7 +294,7 @@ Suggests: ape, arrow, base64enc, Biobase, BiocGenerics, BPCells,
         1.0.0), sp, SingleCellExperiment, SummarizedExperiment,
         testthat, VGAM
 License: MIT + file LICENSE
-MD5sum: 191c1436ffa38f90c144f233957fe531
+MD5sum: 1e9706d49e1495f0ab6a1983092b4a79
 NeedsCompilation: yes
 
 Package: spatial

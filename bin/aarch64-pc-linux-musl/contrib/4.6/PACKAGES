@@ -1,3 +1,26 @@
+Package: fs
+Version: 2.1.0
+Depends: R (>= 4.1)
+Imports: methods
+Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling,
+        testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
+License: MIT + file LICENSE
+MD5sum: e01e625ad069979581584caa35db53f4
+NeedsCompilation: yes
+
+Package: harmony
+Version: 2.0.4
+Depends: R(>= 4.2.0), Rcpp
+Imports: dplyr, cowplot, ggplot2, Matrix, methods, tibble, rlang,
+        RhpcBLASctl, cli
+LinkingTo: Rcpp, RcppArmadillo, RcppProgress
+Suggests: SingleCellExperiment, Seurat (>= 4.1.1), testthat, knitr,
+        rmarkdown, ggthemes, ggrepel, patchwork, tidyverse, tidyr,
+        data.table
+License: GPL-3
+MD5sum: 9e182863aadeecb6e36b383a9b3c593c
+NeedsCompilation: yes
+
 Package: RCurl
 Version: 1.98-1.19
 Depends: R (>= 3.4.0), methods
@@ -5,6 +28,12 @@ Imports: bitops
 Suggests: XML
 License: BSD_3_clause + file LICENSE
 MD5sum: faff0d075ea184218d2706f6daf3d94e
+NeedsCompilation: yes
+
+Package: RhpcBLASctl
+Version: 0.23-42
+License: AGPL-3
+MD5sum: 19e8458ca64f4a2e3c982e174415c9a7
 NeedsCompilation: yes
 
 Package: XML

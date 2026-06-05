@@ -62,10 +62,10 @@ for pkg in $RECOMMENDED_PKGS; do
     fi
 done
 
-# Collect binary tarballs from staging
+# Collect binary tarballs (R CMD INSTALL --build creates them in CWD)
 echo ""
 echo "=== Collecting binary packages ==="
-find "$STAGING_LIB" -name "*.tar.gz" -exec cp {} "$OUTPUT_DIR/" \;
+mv *.tar.gz "$OUTPUT_DIR/" 2>/dev/null || echo "  (No tarballs to move)"
 
 # Generate PACKAGES metadata
 echo "=== Generating PACKAGES metadata ==="

@@ -1,0 +1,142 @@
+Package: boot
+Version: 1.3-32
+Priority: recommended
+Depends: R (>= 3.0.0), graphics, stats
+Suggests: MASS, survival
+License: Unlimited
+MD5sum: 6fc8f50b4ffbf38461253678d27090da
+NeedsCompilation: no
+
+Package: class
+Version: 7.3-23
+Priority: recommended
+Depends: R (>= 3.0.0), stats, utils
+Imports: MASS
+License: GPL-2 | GPL-3
+MD5sum: 0955edea91ac1806eb28e5f109d0e279
+NeedsCompilation: yes
+
+Package: cluster
+Version: 2.1.8.2
+Priority: recommended
+Depends: R (>= 3.5.0)
+Imports: graphics, grDevices, stats, utils
+Suggests: MASS, Matrix
+Enhances: mvoutlier, fpc, ellipse, sfsmisc
+License: GPL (>= 2)
+MD5sum: 00f17973b6fd3f5138723a1323035be4
+NeedsCompilation: yes
+
+Package: codetools
+Version: 0.2-20
+Priority: recommended
+Depends: R (>= 2.1)
+License: GPL
+MD5sum: 965043aaa6204e6a541b15471384ef4d
+NeedsCompilation: no
+
+Package: foreign
+Version: 0.8-91
+Priority: recommended
+Depends: R (>= 4.0.0)
+Imports: methods, utils, stats
+License: GPL (>= 2)
+MD5sum: c924b3c11eac32c1c963fd968f2344c3
+NeedsCompilation: yes
+
+Package: KernSmooth
+Version: 2.23-26
+Priority: recommended
+Depends: R (>= 2.5.0), stats
+Suggests: MASS, carData
+License: Unlimited
+MD5sum: 310fd948508e56bec4af3fba5ee6e50e
+NeedsCompilation: yes
+
+Package: lattice
+Version: 0.22-9
+Priority: recommended
+Depends: R (>= 4.0.0)
+Imports: grid, grDevices, graphics, stats, utils
+Suggests: KernSmooth, MASS, latticeExtra, colorspace
+Enhances: chron, zoo
+License: GPL (>= 2)
+MD5sum: ce9807fca63c7af2a857b25ed4d84907
+NeedsCompilation: yes
+
+Package: MASS
+Version: 7.3-65
+Priority: recommended
+Depends: R (>= 4.4.0), grDevices, graphics, stats, utils
+Imports: methods
+Suggests: lattice, nlme, nnet, survival
+License: GPL-2 | GPL-3
+MD5sum: 0d3518995daea8209ff4e4760c833f74
+NeedsCompilation: yes
+
+Package: Matrix
+Version: 1.7-5
+Priority: recommended
+Depends: R (>= 4.4), methods
+Imports: grDevices, graphics, grid, lattice, stats, utils
+Suggests: MASS, datasets, sfsmisc, tools
+Enhances: SparseM, graph
+License: GPL (>= 2) | file LICENCE
+MD5sum: cd69e374df8ae4a3de190b0865bcdc51
+NeedsCompilation: yes
+
+Package: mgcv
+Version: 1.9-4
+Priority: recommended
+Depends: R (>= 4.4.0), nlme (>= 3.1-64)
+Imports: methods, stats, graphics, Matrix, splines, utils
+Suggests: parallel, survival, MASS
+License: GPL (>= 2)
+MD5sum: 117223953445e546465ca85e5d0e9dc0
+NeedsCompilation: yes
+
+Package: nlme
+Version: 3.1-169
+Priority: recommended
+Depends: R (>= 3.6.0)
+Imports: graphics, stats, utils, lattice
+Suggests: MASS, SASmixed
+License: GPL (>= 2)
+MD5sum: 86effe04c25c0e6fc8a559535a6f760a
+NeedsCompilation: yes
+
+Package: nnet
+Version: 7.3-20
+Priority: recommended
+Depends: R (>= 3.0.0), stats, utils
+Suggests: MASS
+License: GPL-2 | GPL-3
+MD5sum: 55ddf65333e3ff1bcbc60941d7064e1e
+NeedsCompilation: yes
+
+Package: rpart
+Version: 4.1.27
+Priority: recommended
+Depends: R (>= 2.15.0), graphics, stats, grDevices
+Suggests: survival
+License: GPL-2 | GPL-3
+MD5sum: 77000458f877421325eb48fe18ff0b4f
+NeedsCompilation: yes
+
+Package: spatial
+Version: 7.3-18
+Priority: recommended
+Depends: R (>= 3.0.0), graphics, stats, utils
+Suggests: MASS
+License: GPL-2 | GPL-3
+MD5sum: e13a2ad3a3774f7fac1fbffcb6522a97
+NeedsCompilation: yes
+
+Package: survival
+Version: 3.8-6
+Priority: recommended
+Depends: R (>= 3.5.0)
+Imports: graphics, Matrix, methods, splines, stats, utils
+License: LGPL (>= 2)
+MD5sum: 5f562351ae33d2e37036437496122c3a
+NeedsCompilation: yes

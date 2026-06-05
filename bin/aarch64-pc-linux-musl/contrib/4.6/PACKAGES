@@ -1,0 +1,8 @@
+Package: RCurl
+Version: 1.98-1.19
+Depends: R (>= 3.4.0), methods
+Imports: bitops
+Suggests: XML
+License: BSD_3_clause + file LICENSE
+MD5sum: faff0d075ea184218d2706f6daf3d94e
+NeedsCompilation: yes

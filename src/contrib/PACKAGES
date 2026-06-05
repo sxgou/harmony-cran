@@ -297,6 +297,24 @@ License: MIT + file LICENSE
 MD5sum: 1e9706d49e1495f0ab6a1983092b4a79
 NeedsCompilation: yes
 
+Package: Signac
+Version: 1.17.1
+Depends: R (>= 4.1.0), methods
+Imports: GenomeInfoDb (>= 1.29.3), GenomicRanges, IRanges, Matrix,
+        Rsamtools, S4Vectors, SeuratObject (>= 5.0.2), data.table,
+        dplyr (>= 1.0.0), future, future.apply, ggplot2, rlang,
+        pbapply, tidyr, patchwork, stats, utils, BiocGenerics, stringi,
+        fastmatch, RcppRoll, scales, Rcpp, grid, tidyselect, vctrs,
+        lifecycle, sparseMatrixStats, RSpectra
+LinkingTo: Rcpp
+Suggests: Seurat (>= 5.0.2), ggforce, ggrepel, ggseqlogo, testthat (>=
+        2.1.0), SummarizedExperiment, TFBSTools, motifmatchr, BSgenome,
+        shiny, miniUI, rtracklayer, biovizBase, Biostrings, lsa, MASS,
+        wrswoR, fgsea
+License: MIT + file LICENSE
+MD5sum: 28ee5bd84ca1f7ae5481d5638f4566d0
+NeedsCompilation: yes
+
 Package: spatial
 Version: 7.3-18
 Priority: recommended

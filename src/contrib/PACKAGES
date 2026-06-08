@@ -1,3 +1,20 @@
+Package: ArchR
+Version: 1.0.3
+Imports: BiocGenerics, Biostrings, chromVAR, chromVARmotifs,
+        ComplexHeatmap, data.table, GenomicRanges, ggplot2, ggrepel,
+        gridExtra, gtable, gtools, harmony, magrittr, Matrix,
+        matrixStats, motifmatchr, nabor, plyr, presto, Rcpp (>=
+        0.12.16), RcppArmadillo, rhdf5, Rsamtools, S4Vectors (>=
+        0.9.25), Seurat, SeuratObject, sparseMatrixStats, stringr,
+        SummarizedExperiment, uwot
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: Cairo, DESeq2, edgeR, GenomicFeatures, ggridges, ggseqlogo,
+        hexbin, leiden, limma, monocle3, pdftools, pheatmap,
+        rhandsontable, scran, shiny, shinythemes, slingshot, testthat
+License: MIT
+MD5sum: ee22c2baf91862116365f56740481197
+NeedsCompilation: yes
+
 Package: askpass
 Version: 1.2.1
 Imports: sys (>= 2.1)
@@ -104,6 +121,16 @@ Depends: R (>= 4.0.0)
 Imports: methods, utils, stats
 License: GPL (>= 2)
 MD5sum: c924b3c11eac32c1c963fd968f2344c3
+NeedsCompilation: yes
+
+Package: fs
+Version: 2.1.0
+Depends: R (>= 4.1)
+Imports: methods
+Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling,
+        testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
+License: MIT + file LICENSE
+MD5sum: 6011a5e758c21acc297ed8bbcf97e7d9
 NeedsCompilation: yes
 
 Package: GenomicRanges
